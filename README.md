@@ -1,4 +1,3 @@
-
 ✈️ Airline Sentiment Analysis: Advanced Preprocessing Pipeline
 📝 Project Overview
 This project implements a robust, industry-standard NLP preprocessing pipeline for analyzing customer sentiment in the airline industry. Using the Twitter Airline Sentiment Dataset, we transformed raw, noisy social media data into a high-signal corpus ready for Machine Learning modeling.
@@ -42,6 +41,8 @@ preprocessor = AirlineTextPreprocessor()
 clean_text = preprocessor.nltk_process("I didn't like the flight 😡")
 # Output: "not like flight enraged face"
 Status: Dataset is verified and 100% ready for Sentiment Analysis modeling.
+
+
 
 <img width="1583" height="584" alt="Airline" src="https://github.com/user-attachments/assets/1c82f6ad-543c-4861-a59b-f300dd9c1e85" />
 
